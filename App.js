@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 const heading1 = React.createElement(
     "h1",
     {
@@ -35,6 +38,12 @@ const parent = React.createElement(
 
 console.log(parent)
 
+const jsxHeading = <h1 className="jsx-heading" >JSX Heading</h1>;
+
+const HeadingComponent = () => {
+    return <h1>React functional component</h1>
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(<HeadingComponent />);

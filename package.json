@@ -1,0 +1,35 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "description": "React Basics App",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100sarthak100/ReactBasics.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Sarthak Naithani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100sarthak100/ReactBasics/issues"
+  },
+  "homepage": "https://github.com/100sarthak100/ReactBasics#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 Chrome version"
+  ]
+}
