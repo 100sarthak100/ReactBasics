@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+.App {
+  flex: 1;
+  display: flex;
+}
+
 #heading {
   color: white;
 }
@@ -49,4 +54,20 @@ body {
   display: flex;
   cursor: pointer;
   margin: 0px 5px 0px 5px;
+}
+
+.res-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 0px 10px;
 }
