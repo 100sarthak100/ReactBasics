@@ -3,7 +3,12 @@ import ReactDOM from "react-dom/client";
 
 import Body from "./src/components/Body";
 import Header from "./src/components/Header";
+import Throttel from "./src/Throttle/Throttel";
+import Pagination from "./src/Pagination/Pagination"
 import DebounceSearch from "./src/components/DebounceSearch/DebounceSearch";
+import MemoExample from "./src/components/MemoExample/MemoExample";
+import GridLights from "./src/components/GridLights/GridLights";
+import AutoComplete from "./src/components/AutoComplete/AutoComplete";
 
 const heading1 = React.createElement(
   "h1",
@@ -54,7 +59,17 @@ const AppLayout = () => {
       {/* <Header />
       <Body /> */}
 
-      <DebounceSearch />
+      {/* <DebounceSearch /> */}
+
+      {/* <Pagination /> */}
+
+      {/* <Throttel /> */}
+
+      {/* <MemoExample /> */}
+
+      {/* <GridLights /> */}
+
+      <AutoComplete />
     </div>
   );
 };
